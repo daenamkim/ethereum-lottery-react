@@ -6,6 +6,8 @@
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-scripts": "2.1.8",
+    "solc": "0.4.25",
+    "truffle-hdwallet-provider": "0.0.3",
     "web3": "1.0.0-beta.35"
   },
   "scripts": {
@@ -23,7 +25,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,css}": [
+    "*.{js}": [
       "eslint",
       "git add"
     ]
@@ -35,7 +37,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "eslint": "^5.15.3",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-import": "^2.16.0",
